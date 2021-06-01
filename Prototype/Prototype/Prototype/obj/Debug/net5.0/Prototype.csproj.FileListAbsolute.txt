@@ -1,0 +1,15 @@
+C:\Programming\Prototype\Prototype\Prototype\bin\Debug\net5.0\Prototype.exe
+C:\Programming\Prototype\Prototype\Prototype\bin\Debug\net5.0\Prototype.deps.json
+C:\Programming\Prototype\Prototype\Prototype\bin\Debug\net5.0\Prototype.runtimeconfig.json
+C:\Programming\Prototype\Prototype\Prototype\bin\Debug\net5.0\Prototype.runtimeconfig.dev.json
+C:\Programming\Prototype\Prototype\Prototype\bin\Debug\net5.0\Prototype.dll
+C:\Programming\Prototype\Prototype\Prototype\bin\Debug\net5.0\ref\Prototype.dll
+C:\Programming\Prototype\Prototype\Prototype\bin\Debug\net5.0\Prototype.pdb
+C:\Programming\Prototype\Prototype\Prototype\obj\Debug\net5.0\Prototype.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programming\Prototype\Prototype\Prototype\obj\Debug\net5.0\Prototype.AssemblyInfoInputs.cache
+C:\Programming\Prototype\Prototype\Prototype\obj\Debug\net5.0\Prototype.AssemblyInfo.cs
+C:\Programming\Prototype\Prototype\Prototype\obj\Debug\net5.0\Prototype.csproj.CoreCompileInputs.cache
+C:\Programming\Prototype\Prototype\Prototype\obj\Debug\net5.0\Prototype.dll
+C:\Programming\Prototype\Prototype\Prototype\obj\Debug\net5.0\ref\Prototype.dll
+C:\Programming\Prototype\Prototype\Prototype\obj\Debug\net5.0\Prototype.pdb
+C:\Programming\Prototype\Prototype\Prototype\obj\Debug\net5.0\Prototype.genruntimeconfig.cache
