@@ -1,0 +1,13 @@
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Prototype\bin\Debug\netcoreapp3.1\Prototype.exe
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Prototype\bin\Debug\netcoreapp3.1\Prototype.deps.json
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Prototype\bin\Debug\netcoreapp3.1\Prototype.runtimeconfig.json
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Prototype\bin\Debug\netcoreapp3.1\Prototype.runtimeconfig.dev.json
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Prototype\bin\Debug\netcoreapp3.1\Prototype.dll
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Prototype\bin\Debug\netcoreapp3.1\Prototype.pdb
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Prototype\obj\Debug\netcoreapp3.1\Prototype.csprojAssemblyReference.cache
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Prototype\obj\Debug\netcoreapp3.1\Prototype.AssemblyInfoInputs.cache
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Prototype\obj\Debug\netcoreapp3.1\Prototype.AssemblyInfo.cs
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Prototype\obj\Debug\netcoreapp3.1\Prototype.csproj.CoreCompileInputs.cache
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Prototype\obj\Debug\netcoreapp3.1\Prototype.dll
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Prototype\obj\Debug\netcoreapp3.1\Prototype.pdb
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Prototype\obj\Debug\netcoreapp3.1\Prototype.genruntimeconfig.cache
