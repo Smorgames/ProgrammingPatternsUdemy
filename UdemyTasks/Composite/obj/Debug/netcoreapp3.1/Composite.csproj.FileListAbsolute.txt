@@ -1,0 +1,13 @@
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Composite\bin\Debug\netcoreapp3.1\Composite.exe
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Composite\bin\Debug\netcoreapp3.1\Composite.deps.json
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Composite\bin\Debug\netcoreapp3.1\Composite.runtimeconfig.json
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Composite\bin\Debug\netcoreapp3.1\Composite.runtimeconfig.dev.json
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Composite\bin\Debug\netcoreapp3.1\Composite.dll
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Composite\bin\Debug\netcoreapp3.1\Composite.pdb
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Composite\obj\Debug\netcoreapp3.1\Composite.csprojAssemblyReference.cache
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Composite\obj\Debug\netcoreapp3.1\Composite.AssemblyInfoInputs.cache
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Composite\obj\Debug\netcoreapp3.1\Composite.AssemblyInfo.cs
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Composite\obj\Debug\netcoreapp3.1\Composite.csproj.CoreCompileInputs.cache
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Composite\obj\Debug\netcoreapp3.1\Composite.dll
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Composite\obj\Debug\netcoreapp3.1\Composite.pdb
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Composite\obj\Debug\netcoreapp3.1\Composite.genruntimeconfig.cache
