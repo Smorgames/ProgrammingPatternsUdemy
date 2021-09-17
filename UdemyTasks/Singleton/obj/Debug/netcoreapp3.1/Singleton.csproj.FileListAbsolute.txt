@@ -1,0 +1,13 @@
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Singleton\bin\Debug\netcoreapp3.1\Singleton.exe
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Singleton\bin\Debug\netcoreapp3.1\Singleton.deps.json
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Singleton\bin\Debug\netcoreapp3.1\Singleton.runtimeconfig.json
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Singleton\bin\Debug\netcoreapp3.1\Singleton.runtimeconfig.dev.json
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Singleton\bin\Debug\netcoreapp3.1\Singleton.dll
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Singleton\bin\Debug\netcoreapp3.1\Singleton.pdb
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Singleton\obj\Debug\netcoreapp3.1\Singleton.csprojAssemblyReference.cache
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Singleton\obj\Debug\netcoreapp3.1\Singleton.AssemblyInfoInputs.cache
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Singleton\obj\Debug\netcoreapp3.1\Singleton.AssemblyInfo.cs
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Singleton\obj\Debug\netcoreapp3.1\Singleton.csproj.CoreCompileInputs.cache
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Singleton\obj\Debug\netcoreapp3.1\Singleton.dll
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Singleton\obj\Debug\netcoreapp3.1\Singleton.pdb
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Singleton\obj\Debug\netcoreapp3.1\Singleton.genruntimeconfig.cache
