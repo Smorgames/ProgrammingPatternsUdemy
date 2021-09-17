@@ -9,17 +9,22 @@ namespace Composite
     {
         static void Main(string[] args)
         {
-             var sv = new SingleValue() { i = 4 };
              var mv = new ManyValues();
+             var mv2 = new ManyValues();
              
-             mv.Add(4);
-             mv.Add(3);
-             mv.Add(2);
              mv.Add(1);
+             mv.Add(2);
+             mv.Add(3);
+             mv.Add(4);
              mv.Add(5);
-            
-             Console.WriteLine(sv.Sum());
-             Console.WriteLine(mv.Sum());
+             mv2.Add(6);
+             mv2.Add(7);
+             mv2.Add(8);
+             mv2.Add(9);
+             mv2.Add(10);
+
+             var iValueContainerList = new List<IValueContainer>() { mv, mv2 };
+             Console.WriteLine(iValueContainerList.Sum());
         }
     }
     
@@ -35,6 +40,9 @@ namespace Composite
 
         public IEnumerator<int> GetEnumerator()
         {
+            if (Value != i)
+                i = Value;
+            
             yield return i;
         }
 
@@ -47,16 +55,6 @@ namespace Composite
     public class ManyValues : List<int>, IValueContainer
     {
         public int i { get; set; }
-    }
-
-    public class Test
-    {
-        
-    }
-
-    public class Test2 : List<int>
-    {
-        
     }
 
     public static class ExtensionMethods
