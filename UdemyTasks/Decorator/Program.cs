@@ -6,7 +6,7 @@ namespace Decorator
     {
         static void Main(string[] args)
         {
-            var dragon = new Dragon(new Bird(), new Lizard(), 1);
+            var dragon = new Dragon();
             Console.WriteLine(dragon.Crawl());
             Console.WriteLine(dragon.Fly());
 
