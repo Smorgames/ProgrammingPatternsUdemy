@@ -1,0 +1,13 @@
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Factories\bin\Debug\netcoreapp3.1\Factories.exe
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Factories\bin\Debug\netcoreapp3.1\Factories.deps.json
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Factories\bin\Debug\netcoreapp3.1\Factories.runtimeconfig.json
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Factories\bin\Debug\netcoreapp3.1\Factories.runtimeconfig.dev.json
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Factories\bin\Debug\netcoreapp3.1\Factories.dll
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Factories\bin\Debug\netcoreapp3.1\Factories.pdb
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Factories\obj\Debug\netcoreapp3.1\Factories.csprojAssemblyReference.cache
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Factories\obj\Debug\netcoreapp3.1\Factories.AssemblyInfoInputs.cache
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Factories\obj\Debug\netcoreapp3.1\Factories.AssemblyInfo.cs
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Factories\obj\Debug\netcoreapp3.1\Factories.csproj.CoreCompileInputs.cache
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Factories\obj\Debug\netcoreapp3.1\Factories.dll
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Factories\obj\Debug\netcoreapp3.1\Factories.pdb
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Factories\obj\Debug\netcoreapp3.1\Factories.genruntimeconfig.cache
