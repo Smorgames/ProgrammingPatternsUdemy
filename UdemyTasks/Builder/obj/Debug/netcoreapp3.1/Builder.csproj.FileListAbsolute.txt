@@ -1,0 +1,13 @@
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Builder\bin\Debug\netcoreapp3.1\Builder.exe
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Builder\bin\Debug\netcoreapp3.1\Builder.deps.json
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Builder\bin\Debug\netcoreapp3.1\Builder.runtimeconfig.json
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Builder\bin\Debug\netcoreapp3.1\Builder.runtimeconfig.dev.json
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Builder\bin\Debug\netcoreapp3.1\Builder.dll
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Builder\bin\Debug\netcoreapp3.1\Builder.pdb
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Builder\obj\Debug\netcoreapp3.1\Builder.csprojAssemblyReference.cache
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Builder\obj\Debug\netcoreapp3.1\Builder.AssemblyInfoInputs.cache
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Builder\obj\Debug\netcoreapp3.1\Builder.AssemblyInfo.cs
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Builder\obj\Debug\netcoreapp3.1\Builder.csproj.CoreCompileInputs.cache
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Builder\obj\Debug\netcoreapp3.1\Builder.dll
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Builder\obj\Debug\netcoreapp3.1\Builder.pdb
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Builder\obj\Debug\netcoreapp3.1\Builder.genruntimeconfig.cache
