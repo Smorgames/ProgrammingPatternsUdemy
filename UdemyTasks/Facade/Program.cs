@@ -8,16 +8,19 @@ namespace Facade
     {
         static void Main(string[] args)
         {
-            var msg = new MagicSquareGenerator();
-            var ms = msg.Generate(2);
+            var magicSquareGenerator = new MagicSquareGenerator();
+            var magicSquare = new List<List<int>>();
+            var size = 4;
 
-            foreach (var line in ms)
+            magicSquare = magicSquareGenerator.Generate(size);
+
+            foreach (var list in magicSquare)
             {
-                foreach (var value in line)
+                foreach (var num in list)
                 {
-                    Console.Write($"{value} ");
+                    Console.Write($"{num} ");
                 }
-                
+
                 Console.WriteLine();
             }
         }
@@ -100,27 +103,30 @@ namespace Facade
     {
         public List<List<int>> Generate(int size)
         {
-            Start:
+            var magicSquare = new List<List<int>>();
+            var splitArray = new List<List<int>>();
+
             var generator = new Generator();
-            var array = new List<List<int>>();
-            
-            for (var i = 0; i < size; i++)
+            var splitter = new Splitter();
+            var verifier = new Verifier();
+            var isMagic = false;
+
+            while (!isMagic)
             {
-                array.Add(generator.Generate(size));
+                magicSquare.Clear();
+                splitArray.Clear();
+
+                for (int i = 0; i < size; i++)
+                {
+                    var row = generator.Generate(size);
+                    magicSquare.Add(row);
+                }
+
+                splitArray = splitter.Split(magicSquare);
+                isMagic = verifier.Verify(splitArray);
             }
 
-            var splitter = new Splitter();
-            var splitArray = new List<List<int>>();
-            
-            splitArray = splitter.Split(array);
-
-            var verifyer = new Verifier();
-            var isMagic = verifyer.Verify(splitArray);
-
-            if (isMagic)
-                return splitArray;
-            
-            goto Start;
+            return magicSquare;
         }
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "a5HTqmVztYB3o+9yFeF1zweCYotDqkVdV/H4kcFHWcosV7MeZLrhCWBF353ZyiZEfglSEX1J1piOSHolR+7+cg==",
+  "dgSpecHash": "BhmR5Qjyg9UXcnvFB92nZ4hy5BgHQoZOEW9CQN5T+/arMeOA0K3N8Y89iU65tgsabrYwVNYlI8c/0Ndb4/jnFg==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\ProgrammingPatternsUdemy\\UdemyTasks\\Command\\Command.csproj",
+  "projectFilePath": "D:\\Projects\\ProgrammingPatternsUdemy\\UdemyTasks\\Command\\Command.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
