@@ -1,0 +1,12 @@
+D:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Flyweight\bin\Debug\netcoreapp3.1\Flyweight.exe
+D:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Flyweight\bin\Debug\netcoreapp3.1\Flyweight.deps.json
+D:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Flyweight\bin\Debug\netcoreapp3.1\Flyweight.runtimeconfig.json
+D:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Flyweight\bin\Debug\netcoreapp3.1\Flyweight.runtimeconfig.dev.json
+D:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Flyweight\bin\Debug\netcoreapp3.1\Flyweight.dll
+D:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Flyweight\bin\Debug\netcoreapp3.1\Flyweight.pdb
+D:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Flyweight\obj\Debug\netcoreapp3.1\Flyweight.AssemblyInfoInputs.cache
+D:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Flyweight\obj\Debug\netcoreapp3.1\Flyweight.AssemblyInfo.cs
+D:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Flyweight\obj\Debug\netcoreapp3.1\Flyweight.csproj.CoreCompileInputs.cache
+D:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Flyweight\obj\Debug\netcoreapp3.1\Flyweight.dll
+D:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Flyweight\obj\Debug\netcoreapp3.1\Flyweight.pdb
+D:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Flyweight\obj\Debug\netcoreapp3.1\Flyweight.genruntimeconfig.cache
