@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 
 namespace ChainOfResponsibility
@@ -7,7 +8,7 @@ namespace ChainOfResponsibility
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var game = new Game();
         }
     }
 
@@ -30,6 +31,11 @@ namespace ChainOfResponsibility
         {
             Attack = Defense = 1;
         }
+
+        public override string ToString()
+        {
+            return $"Goblin [{Attack}; {Defense}]";
+        }
     }
 
     public class GoblinKing : Goblin
@@ -38,27 +44,104 @@ namespace ChainOfResponsibility
         {
             Attack = Defense = 3;
         }
+
+        public override string ToString()
+        {
+            return $"Goblin King [{Attack}; {Defense}]";
+        }
     }
 
-    public class GoblinModifier
+    public class GoblinModifier : IList<Creature>
     {
-        protected readonly Game _game;
-        protected readonly List<Creature> _creatures;
+        private List<Creature> _goblins = new List<Creature>();
 
-        public GoblinModifier(Game game, List<Creature> creatures)
+        private int _goblinCount;
+        private int _goblinKingCount;
+
+        public Creature this[int index] 
         {
-            _game = game;
-            _creatures = creatures;
+            get => _goblins[index];
+            set => _goblins[index] = value; 
         }
 
-        private void Handle()
-        {
+        public int Count => _goblins.Count;
 
+        public bool IsReadOnly => false;
+
+        public void Add(Creature item)
+        {
+            if (item is GoblinKing)
+                _goblinKingCount++;
+            else if (item is Goblin)
+                _goblinCount++;
+            
+            _goblins.Add(item);
+
+            foreach (var goblin in _goblins)
+            {
+                if (goblin is GoblinKing)
+                    break;
+
+                if (goblin is Goblin)
+                {
+                    item.Attack = 1 + _goblinKingCount;
+                    item.Defense = _goblinCount;
+                }
+            }
+        }
+
+        public void Clear()
+        {
+            _goblins.Clear();
+            _goblinCount = 0;
+            _goblinKingCount = 0;
+        }
+
+        public bool Contains(Creature item)
+        {
+            return _goblins.Contains(item);
+        }
+
+        public void CopyTo(Creature[] array, int arrayIndex)
+        {
+            _goblins.CopyTo(array, arrayIndex);
+        }
+
+        public IEnumerator<Creature> GetEnumerator()
+        {
+            return _goblins.GetEnumerator();
+        }
+
+        public int IndexOf(Creature item)
+        {
+            return _goblins.IndexOf(item);
+        }
+
+        public void Insert(int index, Creature item)
+        {
+            _goblins.Insert(index, item);
+        }
+
+        public bool Remove(Creature item)
+        {
+            return _goblins.Remove(item);
+        }
+
+        public void RemoveAt(int index)
+        {
+            _goblins.RemoveAt(index);
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return _goblins.GetEnumerator();
         }
     }
 
     public class Game
     {
-        public IList<Creature> Creatures;
+        public IList<Creature> Creatures = new GoblinModifier();
+
+
     }
 }

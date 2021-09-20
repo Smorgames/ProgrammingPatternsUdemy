@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yScrtQqL7UZoXH9ZhbuWFYliQZVBd+vXfZbHCzseeSgl9oJcsRKZ/rkBCfvRn8hG6D8tmWQ2ZIJBbq/ryA0Hfw==",
+  "dgSpecHash": "S1hWQoou+UoW0wtlEUbNOJfFmv96DkLvZsPhL4LSKf7W6QCqXbsWS032IGcvNiX1MTT706EcRSzkXbGuWmfr3Q==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\ProgrammingPatternsUdemy\\UdemyTasks\\ChainOfResponsibility\\ChainOfResponsibility.csproj",
+  "projectFilePath": "C:\\Projects\\ProgrammingPatternsUdemy\\UdemyTasks\\ChainOfResponsibility\\ChainOfResponsibility.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
