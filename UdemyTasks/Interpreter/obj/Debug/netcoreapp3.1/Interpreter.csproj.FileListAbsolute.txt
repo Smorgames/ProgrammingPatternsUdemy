@@ -1,0 +1,13 @@
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Interpreter\obj\Debug\netcoreapp3.1\Interpreter.csprojAssemblyReference.cache
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Interpreter\obj\Debug\netcoreapp3.1\Interpreter.AssemblyInfoInputs.cache
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Interpreter\obj\Debug\netcoreapp3.1\Interpreter.AssemblyInfo.cs
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Interpreter\obj\Debug\netcoreapp3.1\Interpreter.csproj.CoreCompileInputs.cache
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Interpreter\bin\Debug\netcoreapp3.1\Interpreter.exe
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Interpreter\bin\Debug\netcoreapp3.1\Interpreter.deps.json
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Interpreter\bin\Debug\netcoreapp3.1\Interpreter.runtimeconfig.json
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Interpreter\bin\Debug\netcoreapp3.1\Interpreter.runtimeconfig.dev.json
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Interpreter\bin\Debug\netcoreapp3.1\Interpreter.dll
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Interpreter\bin\Debug\netcoreapp3.1\Interpreter.pdb
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Interpreter\obj\Debug\netcoreapp3.1\Interpreter.dll
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Interpreter\obj\Debug\netcoreapp3.1\Interpreter.pdb
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Interpreter\obj\Debug\netcoreapp3.1\Interpreter.genruntimeconfig.cache
