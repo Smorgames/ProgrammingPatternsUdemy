@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlTypes;
 using System.Text;
 
 namespace Interpreter
@@ -10,10 +11,8 @@ namespace Interpreter
         {
             var ep = new ExpressionProcessor();
             ep.Variables.Add('x', 5);
-            var lex = ep.Lex("5+46-54+x");
 
-            foreach (var token in lex)
-                Console.WriteLine($"{token}");
+            Console.WriteLine(ep.Calculate("5+31-25-3+4"));
         }
 
         public class Token
@@ -151,42 +150,56 @@ namespace Interpreter
                 return tokens;
             }
 
-            public void Parse(List<Token> tokens)
+            public int Parse(List<Token> tokens)
             {
-                var expressions = new List<Expression>();
-
-                foreach (var token in tokens)
+                var isInit = false;
+                var value = 0;
+                
+                for (int i = 1; i < tokens.Count; i+=2)
                 {
-                    if (token.MyType == Token.Type.Integer)
+                    if (!isInit)
                     {
-                        var value = Convert.ToInt32(token.Text);
-                        var number = new NumberExpression(value);
-                        expressions.Add(number);
+                        var ex = GetBinaryExpressionBasedOnTokenType(tokens[i].MyType);
+                        ex.Left = new NumberExpression(Convert.ToInt32(tokens[i - 1].Text));
+                        ex.Right = new NumberExpression(Convert.ToInt32(tokens[i + 1].Text));
+                        isInit = true;
                     }
-
-                    if (token.MyType == Token.Type.Add)
+                    else
                     {
-                        var add = new AddExpression();
-                        expressions.Add(add);
-                    }
+                        var ex = GetBinaryExpressionBasedOnTokenType(tokens[i].MyType);
+                        ex.Left = new NumberExpression(Convert.ToInt32(tokens[i - 2].Text));
+                        ex.Right = new NumberExpression(Convert.ToInt32(tokens[i + 1].Text));
 
-                    if (token.MyType == Token.Type.Subtract)
-                    {
-                        var sub = new SubtractExpression();
-                        expressions.Add(sub);
+                        if (i == tokens.Count - 2)
+                            value = ex.Value;
                     }
                 }
 
-                for (int i = 0; i < expressions.Count; i+=2)
+                return value;
+            }
+
+            private BinaryExpression GetBinaryExpressionBasedOnTokenType(Token.Type type)
+            {
+                if (type == Token.Type.Add)
                 {
-                    expressions[i + 1] as BinaryExpression
+                    var add = new AddExpression();
+                    return add;
                 }
+
+                if (type == Token.Type.Subtract)
+                {
+                    var sub = new SubtractExpression();
+                    return sub;
+                }
+
+                throw new Exception();
             }
 
             public int Calculate(string expression)
             {
-
-                return 0;
+                var tokens = Lex(expression);
+                var value = Parse(tokens);
+                return value;
             }
         }
     }
