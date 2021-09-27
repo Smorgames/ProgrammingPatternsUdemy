@@ -42,6 +42,7 @@ namespace Interpreter
         
         public abstract class Expression
         {
+            public Expression Parent { get; set; }
             public abstract int Value { get; }
         }
         
@@ -57,13 +58,18 @@ namespace Interpreter
         
         public abstract class BinaryExpression : Expression
         {
-            public readonly Expression Left;
-            public readonly Expression Right;
+            public Expression Left { get; set; }
+            public Expression Right { get; set; }
 
             public BinaryExpression(Expression left, Expression right)
             {
                 Left = left;
                 Right = right;
+            }
+
+            public BinaryExpression()
+            {
+                
             }
         }
         
@@ -71,12 +77,15 @@ namespace Interpreter
         {
             public AddExpression(Expression left, Expression right) : base(left, right) { }
 
+            public AddExpression() : base() { }
+
             public override int Value => Left.Value + Right.Value;
         }
         
         public class SubtractExpression : BinaryExpression
         {
             public SubtractExpression(Expression left, Expression right) : base(left, right) { }
+            public SubtractExpression() : base() { }
 
             public override int Value => Left.Value + Right.Value;
         }
@@ -144,20 +153,33 @@ namespace Interpreter
 
             public void Parse(List<Token> tokens)
             {
-                var lastNumber = 0;
-                var lastOperator = Token.Type.Add;
-                
+                var expressions = new List<Expression>();
+
                 foreach (var token in tokens)
                 {
                     if (token.MyType == Token.Type.Integer)
                     {
-                        
+                        var value = Convert.ToInt32(token.Text);
+                        var number = new NumberExpression(value);
+                        expressions.Add(number);
                     }
-                    
-                    if (token.MyType == Token.Type.Add || token.MyType == Token.Type.Subtract)
+
+                    if (token.MyType == Token.Type.Add)
                     {
                         var add = new AddExpression();
+                        expressions.Add(add);
                     }
+
+                    if (token.MyType == Token.Type.Subtract)
+                    {
+                        var sub = new SubtractExpression();
+                        expressions.Add(sub);
+                    }
+                }
+
+                for (int i = 0; i < expressions.Count; i+=2)
+                {
+                    expressions[i + 1] as BinaryExpression
                 }
             }
 
