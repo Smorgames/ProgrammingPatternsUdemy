@@ -1,27 +1,32 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data.SqlTypes;
 using System.Text;
 
-namespace Interpreter
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            var ep = new ExpressionProcessor();
-            ep.Variables.Add('x', 5);
-
-            Console.WriteLine(ep.Calculate("5+31-25-3+4"));
-        }
-
-        public class Token
+  namespace Coding.Exercise
+  {
+      class Program
+      {
+          static void Main(string[] args)
+          {
+              var ep = new ExpressionProcessor();
+              ep.Variables.Add('x', 3);
+              ep.Variables.Add('y', 2);
+              var input = "1+2+3";
+              Console.WriteLine($"{input}={ep.Calculate(input)}");
+              input = "1+2+xy";
+              Console.WriteLine($"{input}={ep.Calculate(input)}");
+              input = "10-2+x";
+              Console.WriteLine($"{input}={ep.Calculate(input)}");
+          }
+      }
+      
+      public class Token
         {
             public enum Type
             {
                 Integer,
-                Add,
-                Subtract
+                Addition,
+                Subtracttion
             }
 
             public Type MyType;
@@ -41,7 +46,6 @@ namespace Interpreter
         
         public abstract class Expression
         {
-            public Expression Parent { get; set; }
             public abstract int Value { get; }
         }
         
@@ -66,10 +70,7 @@ namespace Interpreter
                 Right = right;
             }
 
-            public BinaryExpression()
-            {
-                
-            }
+            public BinaryExpression() { }
         }
         
         public class AddExpression : BinaryExpression
@@ -78,7 +79,7 @@ namespace Interpreter
 
             public AddExpression() : base() { }
 
-            public override int Value => Left.Value + Right.Value;
+            public override int Value { get { return Left.Value + Right.Value; } }
         }
         
         public class SubtractExpression : BinaryExpression
@@ -86,7 +87,7 @@ namespace Interpreter
             public SubtractExpression(Expression left, Expression right) : base(left, right) { }
             public SubtractExpression() : base() { }
 
-            public override int Value => Left.Value + Right.Value;
+            public override int Value { get { return Left.Value - Right.Value; } }
         }
 
         public class ExpressionProcessor
@@ -103,13 +104,13 @@ namespace Interpreter
 
                     if (input[i] == '+')
                     {
-                        tokens.Add(new Token(Token.Type.Add, "+"));
+                        tokens.Add(new Token(Token.Type.Addition, "+"));
                         isCorrectValue = true;
                     }
 
                     if (input[i] == '-')
                     {
-                        tokens.Add(new Token(Token.Type.Subtract, "-"));
+                        tokens.Add(new Token(Token.Type.Subtracttion, "-"));
                         isCorrectValue = true;
                     }
 
@@ -152,23 +153,38 @@ namespace Interpreter
 
             public int Parse(List<Token> tokens)
             {
+                if (tokens.Count < 3)
+                    return 0;
+                
                 var isInit = false;
                 var value = 0;
-                
+                var binaryExpressions = new List<Expression>();
+                var j = 0;
+
                 for (int i = 1; i < tokens.Count; i+=2)
                 {
                     if (!isInit)
                     {
                         var ex = GetBinaryExpressionBasedOnTokenType(tokens[i].MyType);
+
+                        if (ex == null)
+                            return 0;
+                        
                         ex.Left = new NumberExpression(Convert.ToInt32(tokens[i - 1].Text));
                         ex.Right = new NumberExpression(Convert.ToInt32(tokens[i + 1].Text));
+                        binaryExpressions.Add(ex);
                         isInit = true;
                     }
                     else
                     {
                         var ex = GetBinaryExpressionBasedOnTokenType(tokens[i].MyType);
-                        ex.Left = new NumberExpression(Convert.ToInt32(tokens[i - 2].Text));
+                        
+                        if (ex == null)
+                            return 0;
+                        
+                        ex.Left = binaryExpressions[j++];
                         ex.Right = new NumberExpression(Convert.ToInt32(tokens[i + 1].Text));
+                        binaryExpressions.Add(ex);
 
                         if (i == tokens.Count - 2)
                             value = ex.Value;
@@ -180,19 +196,19 @@ namespace Interpreter
 
             private BinaryExpression GetBinaryExpressionBasedOnTokenType(Token.Type type)
             {
-                if (type == Token.Type.Add)
+                if (type == Token.Type.Addition)
                 {
                     var add = new AddExpression();
                     return add;
                 }
 
-                if (type == Token.Type.Subtract)
+                if (type == Token.Type.Subtracttion)
                 {
                     var sub = new SubtractExpression();
                     return sub;
                 }
 
-                throw new Exception();
+                return null;
             }
 
             public int Calculate(string expression)
@@ -202,5 +218,4 @@ namespace Interpreter
                 return value;
             }
         }
-    }
-}
+  }
