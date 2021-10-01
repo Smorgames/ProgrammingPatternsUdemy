@@ -1,0 +1,13 @@
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Mediator\bin\Debug\netcoreapp3.1\Mediator.exe
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Mediator\bin\Debug\netcoreapp3.1\Mediator.deps.json
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Mediator\bin\Debug\netcoreapp3.1\Mediator.runtimeconfig.json
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Mediator\bin\Debug\netcoreapp3.1\Mediator.runtimeconfig.dev.json
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Mediator\bin\Debug\netcoreapp3.1\Mediator.dll
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Mediator\bin\Debug\netcoreapp3.1\Mediator.pdb
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Mediator\obj\Debug\netcoreapp3.1\Mediator.csprojAssemblyReference.cache
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Mediator\obj\Debug\netcoreapp3.1\Mediator.AssemblyInfoInputs.cache
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Mediator\obj\Debug\netcoreapp3.1\Mediator.AssemblyInfo.cs
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Mediator\obj\Debug\netcoreapp3.1\Mediator.csproj.CoreCompileInputs.cache
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Mediator\obj\Debug\netcoreapp3.1\Mediator.dll
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Mediator\obj\Debug\netcoreapp3.1\Mediator.pdb
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Mediator\obj\Debug\netcoreapp3.1\Mediator.genruntimeconfig.cache
