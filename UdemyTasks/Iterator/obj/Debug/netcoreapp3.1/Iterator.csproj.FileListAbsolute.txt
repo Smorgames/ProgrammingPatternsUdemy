@@ -1,0 +1,13 @@
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Iterator\bin\Debug\netcoreapp3.1\Iterator.exe
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Iterator\bin\Debug\netcoreapp3.1\Iterator.deps.json
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Iterator\bin\Debug\netcoreapp3.1\Iterator.runtimeconfig.json
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Iterator\bin\Debug\netcoreapp3.1\Iterator.runtimeconfig.dev.json
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Iterator\bin\Debug\netcoreapp3.1\Iterator.dll
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Iterator\bin\Debug\netcoreapp3.1\Iterator.pdb
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Iterator\obj\Debug\netcoreapp3.1\Iterator.csprojAssemblyReference.cache
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Iterator\obj\Debug\netcoreapp3.1\Iterator.AssemblyInfoInputs.cache
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Iterator\obj\Debug\netcoreapp3.1\Iterator.AssemblyInfo.cs
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Iterator\obj\Debug\netcoreapp3.1\Iterator.csproj.CoreCompileInputs.cache
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Iterator\obj\Debug\netcoreapp3.1\Iterator.dll
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Iterator\obj\Debug\netcoreapp3.1\Iterator.pdb
+C:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Iterator\obj\Debug\netcoreapp3.1\Iterator.genruntimeconfig.cache
