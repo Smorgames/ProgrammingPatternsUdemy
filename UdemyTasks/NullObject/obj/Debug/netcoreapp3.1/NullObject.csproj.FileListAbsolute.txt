@@ -1,0 +1,12 @@
+D:\Projects\ProgrammingPatternsUdemy\UdemyTasks\NullObject\bin\Debug\netcoreapp3.1\NullObject.exe
+D:\Projects\ProgrammingPatternsUdemy\UdemyTasks\NullObject\bin\Debug\netcoreapp3.1\NullObject.deps.json
+D:\Projects\ProgrammingPatternsUdemy\UdemyTasks\NullObject\bin\Debug\netcoreapp3.1\NullObject.runtimeconfig.json
+D:\Projects\ProgrammingPatternsUdemy\UdemyTasks\NullObject\bin\Debug\netcoreapp3.1\NullObject.runtimeconfig.dev.json
+D:\Projects\ProgrammingPatternsUdemy\UdemyTasks\NullObject\bin\Debug\netcoreapp3.1\NullObject.dll
+D:\Projects\ProgrammingPatternsUdemy\UdemyTasks\NullObject\bin\Debug\netcoreapp3.1\NullObject.pdb
+D:\Projects\ProgrammingPatternsUdemy\UdemyTasks\NullObject\obj\Debug\netcoreapp3.1\NullObject.AssemblyInfoInputs.cache
+D:\Projects\ProgrammingPatternsUdemy\UdemyTasks\NullObject\obj\Debug\netcoreapp3.1\NullObject.AssemblyInfo.cs
+D:\Projects\ProgrammingPatternsUdemy\UdemyTasks\NullObject\obj\Debug\netcoreapp3.1\NullObject.csproj.CoreCompileInputs.cache
+D:\Projects\ProgrammingPatternsUdemy\UdemyTasks\NullObject\obj\Debug\netcoreapp3.1\NullObject.dll
+D:\Projects\ProgrammingPatternsUdemy\UdemyTasks\NullObject\obj\Debug\netcoreapp3.1\NullObject.pdb
+D:\Projects\ProgrammingPatternsUdemy\UdemyTasks\NullObject\obj\Debug\netcoreapp3.1\NullObject.genruntimeconfig.cache
