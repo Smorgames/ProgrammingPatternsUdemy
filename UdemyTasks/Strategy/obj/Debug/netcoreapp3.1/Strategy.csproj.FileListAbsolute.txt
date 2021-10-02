@@ -1,0 +1,12 @@
+D:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Strategy\bin\Debug\netcoreapp3.1\Strategy.exe
+D:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Strategy\bin\Debug\netcoreapp3.1\Strategy.deps.json
+D:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Strategy\bin\Debug\netcoreapp3.1\Strategy.runtimeconfig.json
+D:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Strategy\bin\Debug\netcoreapp3.1\Strategy.runtimeconfig.dev.json
+D:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Strategy\bin\Debug\netcoreapp3.1\Strategy.dll
+D:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Strategy\bin\Debug\netcoreapp3.1\Strategy.pdb
+D:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Strategy\obj\Debug\netcoreapp3.1\Strategy.AssemblyInfoInputs.cache
+D:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Strategy\obj\Debug\netcoreapp3.1\Strategy.AssemblyInfo.cs
+D:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Strategy\obj\Debug\netcoreapp3.1\Strategy.csproj.CoreCompileInputs.cache
+D:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Strategy\obj\Debug\netcoreapp3.1\Strategy.dll
+D:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Strategy\obj\Debug\netcoreapp3.1\Strategy.pdb
+D:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Strategy\obj\Debug\netcoreapp3.1\Strategy.genruntimeconfig.cache
