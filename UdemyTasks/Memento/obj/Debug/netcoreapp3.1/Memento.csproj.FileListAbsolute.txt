@@ -1,0 +1,12 @@
+D:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Memento\bin\Debug\netcoreapp3.1\Memento.exe
+D:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Memento\bin\Debug\netcoreapp3.1\Memento.deps.json
+D:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Memento\bin\Debug\netcoreapp3.1\Memento.runtimeconfig.json
+D:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Memento\bin\Debug\netcoreapp3.1\Memento.runtimeconfig.dev.json
+D:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Memento\bin\Debug\netcoreapp3.1\Memento.dll
+D:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Memento\bin\Debug\netcoreapp3.1\Memento.pdb
+D:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Memento\obj\Debug\netcoreapp3.1\Memento.AssemblyInfoInputs.cache
+D:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Memento\obj\Debug\netcoreapp3.1\Memento.AssemblyInfo.cs
+D:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Memento\obj\Debug\netcoreapp3.1\Memento.csproj.CoreCompileInputs.cache
+D:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Memento\obj\Debug\netcoreapp3.1\Memento.dll
+D:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Memento\obj\Debug\netcoreapp3.1\Memento.pdb
+D:\Projects\ProgrammingPatternsUdemy\UdemyTasks\Memento\obj\Debug\netcoreapp3.1\Memento.genruntimeconfig.cache
